@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    color:lavenderblush;
+}
+
+.container {
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    margin-top: 200px;
+}
+
+.square{
+    width:100px;
+    height:100px;
+    background-color: red;
+    transition: 2s;
+
+
+}
+.square:hover{
+    background-color: rgba(195, 183, 183, 0.64);
+    border-radius: 50%;
+    transition: 2s;
+}

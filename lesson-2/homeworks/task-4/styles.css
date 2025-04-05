@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(214, 207, 207, 0.93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 600;
+
+
+}
+.box2 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+
+
+}
+.box3 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+.box4 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+
+}
+.box5 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+
+}

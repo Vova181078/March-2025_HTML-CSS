@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:green;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #7d957d;
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.box h3 {
+   margin-bottom: 8px;
+}
+
+.box h3, p{
+   display: flex;
+    justify-content: start;
+    padding: 7px;
+}
