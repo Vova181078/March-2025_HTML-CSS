@@ -1,0 +1,43 @@
+
+body{
+    margin: 2%;
+}
+
+
+header{
+    height: 50vh;
+    background-color: #4e4ebd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+ section{
+     width: 32%;
+    height: 50vh;
+    background-color: darkblue;
+     color: white;
+    margin: 2% 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 30px;
+}
+
+footer{
+    height: 70vh;
+    background-color: #4e4ebd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
