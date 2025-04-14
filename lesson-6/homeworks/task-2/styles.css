@@ -1,0 +1,52 @@
+body{
+    background-color: lightseagreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial,sans-serif;
+
+}
+
+.form-container {
+    width: 60vw;
+    height: 60vh;
+    background-color: white;
+
+}
+
+.form-container div:nth-child(1){
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6ede9;
+}
+
+.form-container form{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="email"],input[type="password"]{
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+}
+
+.form-container>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+form input[type="submit"]{
+    background-color: #a6ede9;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+}
