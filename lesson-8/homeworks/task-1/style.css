@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2em;
+
+}
+.main-pictures img{
+    width: 372px;
+}
+h4, p{
+    text-align: center;
+
+}
+h4{
+    color: #000;
+    text-align: center;
+    /* Text/1 strong */
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+p{
+    color:  #3C3C43;
+    text-align: center;
+
+    /* Capital/1 strong */
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 120%; /* 15.6px */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

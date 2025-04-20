@@ -1,0 +1,51 @@
+@media  screen and (max-device-width: 375px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-pictures {
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+    .main-pictures img{
+        width: 343px;
+    }
+
+    h4, p {
+        text-align: center;
+
+    }
+
+    h4 {
+        color: #000;
+        text-align: center;
+
+        /* Text/1 strong */
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 24px */
+    }
+
+    p {
+        color: #3C3C43;
+        text-align: center;
+
+        /* Capital/1 strong */
+        font-family: Inter, sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 15.6px */
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+}

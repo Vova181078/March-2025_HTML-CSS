@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-box{
+    display: flex;
+    width: 100%;
+    padding: 64px 48px;
+    align-items: center;
+    gap: 100px;
+    margin: 64px 48px;
+    flex-wrap: wrap;
+
+
+}
+
+.pictures img{
+    border-radius: 160px;
+    background: lightgray 50% / cover no-repeat;
+
+}
+.pictures h4{
+    color: #161543;
+    /* Text/1 strong */
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 20px 0 20px 0;
+}
+.pictures p{
+
+    color: #7687A1;
+    /* Text/3 regular */
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+p{
+    width: 271px;
+}
